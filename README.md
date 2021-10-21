@@ -84,3 +84,6 @@ Facade es un patrón de diseño estructural que proporciona una interfaz simplif
 **Ejemplos de uso**: El patrón Facade se utiliza habitualmente en aplicaciones escritas en Python. Es de especial utilidad al trabajar con bibliotecas y API complejas.
 
 **Identificación:** El patrón Facade se puede reconocer en una clase con una interfaz simple, pero que delega la mayor parte del trabajo a otras clases. Normalmente, las fachadas gestionan todo el ciclo de vida de los objetos que utilizan.
+
+## Decorador (Decorator)
+Lo que este patron ofrece es que podamos agregar funcionalidades a un objeto existente sin alterar su estructura, que no haya necidad de alterar el codigo de la clase base.
