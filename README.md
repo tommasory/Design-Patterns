@@ -54,3 +54,33 @@ El ejemplo que se muestra a continuación se puede utilizar como referencia para
 Especificar los tipos de objetos para crear usando una instancia prototípica,
 y cree nuevos objetos copiando este prototipo.
 * Copia de objetos con los mismos valores
+
+# Structural patterns
+In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
+
+* **Adapter**
+Match interfaces of different classes
+* **Bridge**
+Separates an object's interface from its implementation
+* **Composite**
+A tree structure of simple and composite objects
+* **Decorator**
+Add responsibilities to objects dynamically
+* **Facade**
+A single class that represents an entire subsystem
+* **Flyweight**
+A fine-grained instance used for efficient sharing
+* **Private Class Data**
+Restricts accessor/mutator access
+* **Proxy**
+An object representing another object
+
+
+## Patrones de diseño - Facade
+Lo que hace es que por medio de una fachada los usuarios pueden usar los servicios de manera mas facil sin saber la complejida que hay detras de estos. 
+
+Facade es un patrón de diseño estructural que proporciona una interfaz simplificada (pero limitada) a un sistema complejo de clases, bibliotecas o _frameworks_.
+
+**Ejemplos de uso**: El patrón Facade se utiliza habitualmente en aplicaciones escritas en Python. Es de especial utilidad al trabajar con bibliotecas y API complejas.
+
+**Identificación:** El patrón Facade se puede reconocer en una clase con una interfaz simple, pero que delega la mayor parte del trabajo a otras clases. Normalmente, las fachadas gestionan todo el ciclo de vida de los objetos que utilizan.
