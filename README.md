@@ -87,3 +87,8 @@ Facade es un patrón de diseño estructural que proporciona una interfaz simplif
 
 ## Decorador (Decorator)
 Lo que este patron ofrece es que podamos agregar funcionalidades a un objeto existente sin alterar su estructura, que no haya necidad de alterar el codigo de la clase base.
+
+## Proxy
+**Intención**
+El patrón de diseño de proxy incluye un nuevo objeto, que se denomina "Proxy" en lugar de un objeto existente que se denomina "Sujeto real". El objeto proxy creado del sujeto real debe estar en la misma interfaz de tal manera que el cliente no debería tener la menor idea de que se usa un proxy en lugar del objeto real. Las solicitudes generadas por el cliente al proxy se pasan a través del sujeto real.
+
