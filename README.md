@@ -26,3 +26,8 @@ Qué mejor que un buen ejemplo para interiorizar lo anteriormente explicado, har
 **Preparación**:
 En la siguiente imagen podrás ver los ficheros que he creado, todos en el mismo nivel.
 
+## Fábrica abstracta
+
+La fábrica abstracta se utiliza en el tejido de vehículos. El mismo dispositivo mecánico se utiliza para estampar partes de diferentes modelos de vehículos (puertas, paneles, cubiertas de carrocería, guardabarros y varios espejos). El modelo que agrega diferentes dispositivos mecánicos es configurable y se puede cambiar fácilmente en cualquier momento. enEste enlacePodemos ver un ejemplo de una fábrica abstracta para la fabricación de vehículos.
+
+El ejemplo que se muestra a continuación se puede utilizar como referencia para la implementación de fábrica abstracta:
