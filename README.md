@@ -92,3 +92,54 @@ Lo que este patron ofrece es que podamos agregar funcionalidades a un objeto exi
 **Intención**
 El patrón de diseño de proxy incluye un nuevo objeto, que se denomina "Proxy" en lugar de un objeto existente que se denomina "Sujeto real". El objeto proxy creado del sujeto real debe estar en la misma interfaz de tal manera que el cliente no debería tener la menor idea de que se usa un proxy en lugar del objeto real. Las solicitudes generadas por el cliente al proxy se pasan a través del sujeto real.
 
+
+# Behavioral patterns
+In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
+
+* **Chain of responsibility**
+A way of passing a request between a chain of objects
+* **Command**
+Encapsulate a command request as an object
+* **Interpreter**
+A way to include language elements in a program
+* **Iterator**
+Sequentially access the elements of a collection
+* **Mediator**
+Defines simplified communication between classes
+* **Memento**
+Capture and restore an object's internal state
+* **Null Object**
+Designed to act as a default value of an object
+* **Observer**
+A way of notifying change to a number of classes
+* **State**
+Alter an object's behavior when its state changes
+* **Strategy**
+Encapsulates an algorithm inside a class
+* **Template method**
+Defer the exact steps of an algorithm to a subclass
+* **Visitor**
+Defines a new operation to a class without change
+
+## Command
+* Promueve la encapsulación de la petición de una operación, bajo un metodo.
+
+* El patrón de diseño de comandos es un patrón de diseño de comportamiento en el que una solicitud se puede convertir en acción.
+
+**¿Dónde usar un patrón de diseño de comandos?**
+
+Cuando necesitamos
+* Hacer / deshacer acción.
+* Cuando desee pasar el método como argumento o cuando desee llamar a una función de devolución de llamada. 
+* Cuando queremos registrar o rastrear comandos.
+
+**¿Por qué utilizar un patrón de diseño de comandos?**
+
+Command Design Pattern es un patrón de diseño basado en solicitudes. Una solicitud ayudará a elegir qué comando debe ejecutarse sin saber qué método de objeto llamar. En este tipo de comando de caso, el patrón de diseño juega un papel clave, lo que facilita el uso de ICommand. El patrón de diseño de comandos en realidad desacopla el administrador de comandos y la lógica de ejecución de comandos, es decir, la implementación real.
+
+**Jugadores en este patrón ICommand:** 
+
+* ICommand: su interfaz que realizará la acción deshacer la acción.
+* ConcreateCommand: el que implementa ICommand.
+* Invoker - Aquel que lleva a cabo la acción.
+* Receiver: One who receives action from invoker and performs action.
