@@ -143,3 +143,12 @@ Command Design Pattern es un patrón de diseño basado en solicitudes. Una solic
 * ConcreateCommand: el que implementa ICommand.
 * Invoker - Aquel que lleva a cabo la acción.
 * Receiver: One who receives action from invoker and performs action.
+
+## Memento
+El método Memento es un patrón de diseño conductual que brinda la capacidad de restaurar un objeto a su estado anterior. Sin revelar los detalles de implementaciones concretas, le permite guardar y restaurar la versión anterior del objeto. Intenta no perturbar la encapsulación del código y le permite capturar y externalizar el estado interno de un objeto.
+
+* Memento es un patrón de diseño de comportamiento que permite tomar instantáneas del estado de un objeto y restaurarlo en el futuro.
+
+* El patrón Memento no compromete la estructura interna del objeto con el que trabaja, ni la información que se encuentra dentro de las instantáneas.
+
+
